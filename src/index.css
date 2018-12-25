@@ -6,9 +6,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #202b3d,
+    #141b26 100%
+  );
+  color: white;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@import "./styles/grid.css";
+@import "./styles/modal.css";
+@import "./styles/reset.css";
